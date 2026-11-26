@@ -263,6 +263,17 @@ def generate_proposal_pdf(data, styles):
         for para in sec["content"].split("\n\n"):
             safe = para.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\n", "<br/>")
             story.append(Paragraph(safe, styles["BodyTextCustom"]))
+        if sec["number"] == 1:
+            story.append(Spacer(1, 4))
+            story.append(Image(os.path.join(ASSETS_DIR, "vis1_before_after.png"), width=172 * mm, height=75 * mm))
+        elif sec["number"] == 2:
+            story.append(Spacer(1, 4))
+            story.append(Image(os.path.join(ASSETS_DIR, "vis2_three_tier.png"), width=172 * mm, height=77 * mm))
+            story.append(Spacer(1, 4))
+            story.append(Image(os.path.join(ASSETS_DIR, "vis3_multicrop_wheel.png"), width=172 * mm, height=68 * mm))
+        elif sec["number"] == 6:
+            story.append(Spacer(1, 4))
+            story.append(Image(os.path.join(ASSETS_DIR, "vis4_roadmap_gantt.png"), width=172 * mm, height=62 * mm))
         story.append(Spacer(1, 4))
 
     doc.build(story)
@@ -304,13 +315,15 @@ def generate_pow_pdf(data, styles):
     story.append(Spacer(1, 6))
 
     # 2. UAV + Spatial Evidence
-    story.append(Paragraph("2. Multi-Modal UAV Orthomosaic Stress &amp; Thermal Hotspot Evidence", styles["SecHeading"]))
+    story.append(Paragraph("2. Drone Naked-Eye vs. Early Stress Detection &amp; UAV Hotspots", styles["SecHeading"]))
     story.append(Paragraph(
         "The Spatial &amp; Forecast Command view fuses Sentinel-2 10m block anomalies with 2.5–3.5 cm/px UAV "
-        "orthomosaic canopy stress grids and thermal ΔT readings. Below are live outputs from two high-risk "
-        "pilot scenarios (Titabor Sali Paddy and Mandia Potato):",
+        "orthomosaic canopy stress grids and thermal ΔT readings. Below we show how multispectral/thermal UAV "
+        "sensing reveals stress 8 days before it is visible to the naked eye, alongside live hotspot grids:",
         styles["BodyTextCustom"],
     ))
+    story.append(Image(os.path.join(ASSETS_DIR, "vis5_drone_rgb_vs_stress.png"), width=174 * mm, height=71 * mm))
+    story.append(Spacer(1, 5))
     story.append(Image(os.path.join(ASSETS_DIR, "fig1_spatial_uav.png"), width=174 * mm, height=73 * mm))
     story.append(Spacer(1, 6))
 
@@ -383,7 +396,9 @@ def generate_pow_pdf(data, styles):
     story.append(Spacer(1, 8))
 
     # 6. Multilingual Advisory & Prototype Verification
-    story.append(Paragraph("6. Multilingual IPM-First Advisory &amp; Build Verification", styles["SecHeading"]))
+    story.append(Paragraph("6. Last-Mile Mobile Verification, Multilingual IPM &amp; Build Verification", styles["SecHeading"]))
+    story.append(Image(os.path.join(ASSETS_DIR, "vis6_mobile_advisory_ui.png"), width=174 * mm, height=80 * mm))
+    story.append(Spacer(1, 4))
     story.append(Paragraph(
         "The Advisory Studio generates SMS/WhatsApp-ready advisories in <b>Assamese, Bengali, Bodo, and English</b> "
         "prioritizing cultural and biological IPM controls before targeted threshold-based spraying:<br/>"
@@ -393,7 +408,7 @@ def generate_pow_pdf(data, styles):
     ))
     story.append(Paragraph(
         "<b>Prototype Verification:</b> Production TypeScript + Vite build (<code>tsc -b &amp;&amp; vite build</code>) "
-        "verified cleanly with zero errors. Repository: <code>agridrishti-assam-nesfic-d11</code>.",
+        "verified cleanly with zero errors. Repository: <code>https://github.com/flugelsoft-01/assam-crop-pest-forecast-nesfic-d11</code>.",
         styles["MetaNote"],
     ))
 
