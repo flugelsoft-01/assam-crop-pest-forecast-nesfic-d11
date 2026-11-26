@@ -25,6 +25,21 @@ npm run dev
 npm run build
 ```
 
+## Deploy to Cloudflare Workers
+
+This project is pre-configured for **Cloudflare Workers Static Assets** via `wrangler.jsonc` and `public/_headers`.
+
+```bash
+# Authenticate once
+npx wrangler login
+
+# Preview locally on Workers runtime
+npm run preview:worker
+
+# Build and deploy to Cloudflare Workers
+npm run deploy
+```
+
 ## Project Structure
 - `src/engine/epidemiology.ts` — Spectral stress & SEIR-based pest/disease risk forecasting engine
 - `src/engine/advisory.ts` — Multilingual IPM-first advisory generator (`as`, `bn`, `brx`, `en`)
