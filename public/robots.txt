@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aranyapulse.com/assam-crop-pest-forecast-nesfic-d11/sitemap.xml
