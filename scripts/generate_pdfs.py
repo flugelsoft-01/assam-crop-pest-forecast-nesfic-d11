@@ -252,7 +252,8 @@ def generate_proposal_pdf(data, styles):
         f"<b>Challenge Owners:</b> {data['challenge_owners']}<br/>"
         f"<b>Lead Applicant:</b> Kalyanjit Hatibaruah &nbsp;|&nbsp; "
         f"<b>Organization:</b> Flugelsoft Labs (AranyaPulse)<br/>"
-        f"<b>GitHub Repository:</b> https://github.com/flugelsoft-01/assam-crop-pest-forecast-nesfic-d11",
+        f"<b>Live Prototype:</b> https://assam-crop-pest-forecast-nesfic-d11.pages.dev/ &nbsp;|&nbsp; "
+        f"<b>Repo:</b> https://github.com/flugelsoft-01/assam-crop-pest-forecast-nesfic-d11",
         styles["DocSubtitle"],
     ))
     story.append(HRFlowable(width="100%", thickness=1.2, color=colors.HexColor("#059669"), spaceAfter=8))
@@ -408,7 +409,9 @@ def generate_pow_pdf(data, styles):
     ))
     story.append(Paragraph(
         "<b>Prototype Verification:</b> Production TypeScript + Vite build (<code>tsc -b &amp;&amp; vite build</code>) "
-        "verified cleanly with zero errors. Repository: <code>https://github.com/flugelsoft-01/assam-crop-pest-forecast-nesfic-d11</code>.",
+        "verified cleanly with zero errors.<br/>"
+        "<b>Live Demo URL:</b> https://assam-crop-pest-forecast-nesfic-d11.pages.dev/<br/>"
+        "<b>GitHub Repository:</b> https://github.com/flugelsoft-01/assam-crop-pest-forecast-nesfic-d11",
         styles["MetaNote"],
     ))
 

@@ -1,7 +1,9 @@
 # AgriDrishti Assam (`agridrishti-assam-nesfic-d11`)
 
 **NESFIC 2026 Problem Statement `NESFIC-D-11`**: *Crop Health Monitoring, Pest & Disease Forecasting and Location-Specific Advisory*  
-**Challenge Owners**: Department of Science & Technology (ASSAC) & Department of Agriculture, Government of Assam.
+**Challenge Owners**: Department of Science & Technology (ASSAC) & Department of Agriculture, Government of Assam  
+**Live Demo**: https://assam-crop-pest-forecast-nesfic-d11.pages.dev/  
+**Lead Applicant**: Kalyanjit Hatibaruah (Flugelsoft Labs · AranyaPulse)
 
 ## Overview
 **AgriDrishti Assam** is a multi-modal crop health monitoring, pest/disease epidemiological forecasting, and multilingual location-specific advisory platform designed for all major agricultural and horticultural crops in Assam (Sali/Boro Paddy, Tea, Mustard, Potato, Maize, and Horticulture).
