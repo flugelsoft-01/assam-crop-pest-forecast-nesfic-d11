@@ -266,15 +266,15 @@ def generate_proposal_pdf(data, styles):
             story.append(Paragraph(safe, styles["BodyTextCustom"]))
         if sec["number"] == 1:
             story.append(Spacer(1, 4))
-            story.append(Image(os.path.join(ASSETS_DIR, "vis1_before_after.png"), width=172 * mm, height=75 * mm))
+            story.append(Image(os.path.join(ASSETS_DIR, "vis1_before_after.jpg"), width=172 * mm, height=96.75 * mm))
         elif sec["number"] == 2:
             story.append(Spacer(1, 4))
-            story.append(Image(os.path.join(ASSETS_DIR, "vis2_three_tier.png"), width=172 * mm, height=77 * mm))
+            story.append(Image(os.path.join(ASSETS_DIR, "vis2_three_tier.jpg"), width=172 * mm, height=96.75 * mm))
             story.append(Spacer(1, 4))
-            story.append(Image(os.path.join(ASSETS_DIR, "vis3_multicrop_wheel.png"), width=172 * mm, height=68 * mm))
+            story.append(Image(os.path.join(ASSETS_DIR, "vis3_multicrop_wheel.jpg"), width=172 * mm, height=96.75 * mm))
         elif sec["number"] == 6:
             story.append(Spacer(1, 4))
-            story.append(Image(os.path.join(ASSETS_DIR, "vis4_roadmap_gantt.png"), width=172 * mm, height=62 * mm))
+            story.append(Image(os.path.join(ASSETS_DIR, "vis4_roadmap_gantt.jpg"), width=172 * mm, height=96.75 * mm))
         story.append(Spacer(1, 4))
 
     doc.build(story)
@@ -323,7 +323,7 @@ def generate_pow_pdf(data, styles):
         "sensing reveals stress 8 days before it is visible to the naked eye, alongside live hotspot grids:",
         styles["BodyTextCustom"],
     ))
-    story.append(Image(os.path.join(ASSETS_DIR, "vis5_drone_rgb_vs_stress.png"), width=174 * mm, height=71 * mm))
+    story.append(Image(os.path.join(ASSETS_DIR, "vis5_drone_rgb_vs_stress.jpg"), width=174 * mm, height=97.9 * mm))
     story.append(Spacer(1, 5))
     story.append(Image(os.path.join(ASSETS_DIR, "fig1_spatial_uav.png"), width=174 * mm, height=73 * mm))
     story.append(Spacer(1, 6))
@@ -398,7 +398,7 @@ def generate_pow_pdf(data, styles):
 
     # 6. Multilingual Advisory & Prototype Verification
     story.append(Paragraph("6. Last-Mile Mobile Verification, Multilingual IPM &amp; Build Verification", styles["SecHeading"]))
-    story.append(Image(os.path.join(ASSETS_DIR, "vis6_mobile_advisory_ui.png"), width=174 * mm, height=80 * mm))
+    story.append(Image(os.path.join(ASSETS_DIR, "vis6_mobile_advisory_ui.jpg"), width=174 * mm, height=97.9 * mm))
     story.append(Spacer(1, 4))
     story.append(Paragraph(
         "The Advisory Studio generates SMS/WhatsApp-ready advisories in <b>Assamese, Bengali, Bodo, and English</b> "

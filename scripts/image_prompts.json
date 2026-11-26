@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "section": "Proposal Section 1: Problem & Workflow",
+    "filename": "vis1_before_after.jpg",
+    "title": "From Reactive Firefighting to Proactive 6-12 Day Early Warning",
+    "prompt": "An authoritative 16:9 widescreen technological framework infographic on a clean white and light-gray blueprint grid background illustrating FROM REACTIVE CROP FIREFIGHTING TO PROACTIVE GEOAI EARLY WARNING IN ASSAM. The top header features bold dark navy condensed typography AGRICULTURAL INTERVENTION PARADIGM SHIFT with subtitle Replacing Late Visual Scouting with Multi-Modal Satellite, UAV & Epidemiological Forecasting. Split cleanly into two contrasting architectural panels: Left Side (Slate Gray & Crimson accents): TODAY: REACTIVE WORKFLOW — 1) Late Visual Detection (yellowed paddy/tea leaves after exponential pest spread), 2) Delayed Field Visit (4-7 days lag, no drone or weather context), 3) Blanket Chemical Spray (high farmer cost, crop loss & ecological harm). Right Side (Emerald Green & Royal Blue accents): WITH AGRIDRISHTI ASSAM (ARANYAPULSE) — 1) 6-12 Day Early Warning (Sentinel-2 + 3cm UAV + microclimate fusion), 2) Guided Field Verification (extension officer verifies GPS hotspot on mobile with audit log), 3) Targeted Multilingual IPM (Assamese/Bengali/Bodo SMS, 30% less pesticide & saved yield). Includes center diagnostic metric badges: 6-12 Days Lead Time, 30% Less Chemical Input, 100% Auditable Loop. Clean 2D flat vector aesthetic, crisp technical callout lines, ultra-sharp typography."
+  },
+  {
+    "id": 2,
+    "section": "Proposal Section 2: 3-Tier Solution",
+    "filename": "vis2_three_tier.jpg",
+    "title": "3-Tier Eye-in-the-Sky to Farmer's Hand Technological Architecture",
+    "prompt": "A master 16:9 widescreen technological architecture infographic on a clean white and light-gray blueprint grid background illustrating THE 3-TIER MULTI-MODAL CROP HEALTH & PEST FORECASTING FRAMEWORK FOR ASSAM. The top header features bold dark navy condensed typography AGRIDRISHTI ASSAM: SATELLITE-TO-FARMER INTELLIGENCE PIPELINE with subtitle Fusing Macro Remote Sensing, Micro UAV Orthomosaics, and Human-in-the-Loop Extension. Depicts three clean horizontal/isometric engineered tiers connected by glowing data-flow arrows: Tier 1 (Royal Blue): SATELLITE MACRO SCAN (Sentinel-2 10m, 5-day revisit across Assam districts, NDVI/NDRE/NDWI anomaly detection vs crop calendar); Tier 2 (Cyan & Amber): UAV DRONE + EPIDEMIOLOGY AI (3cm/px RGB/multispectral orthomosaic, thermal ΔT hotspots, SEIR degree-day & leaf-wetness 14-day risk forecast); Tier 3 (Emerald Green): EXTENSION OFFICER & FARMER ACTION (Mobile field verification queue, immutable audit log, Assamese/Bengali/Bodo/English IPM SMS/WhatsApp). Includes callout badges: 10m -> 3cm Resolution, Nutrient vs Pest Disambiguation, Zero Unverified Sprays. Clean 2D flat vector aesthetic, crisp lines, dark navy, emerald, cyan, and amber accents."
+  },
+  {
+    "id": 3,
+    "section": "Proposal Section 2: Multi-Crop Matrix",
+    "filename": "vis3_multicrop_wheel.jpg",
+    "title": "All-Crop Compatibility Across Assam's Agro-Climatic Zones",
+    "prompt": "A structured 16:9 widescreen technological framework infographic on a clean white and light-gray blueprint grid background illustrating MULTI-CROP COMPATIBILITY ACROSS ASSAM'S AGRO-CLIMATIC ZONES. The top header features bold dark navy condensed typography UNIVERSAL MULTI-CROP PEST & STRESS ENGINE with subtitle Supporting Kharif, Rabi & Perennial Agricultural & Horticultural Crops Across 6 Pilot Districts. Features a central glowing GeoAI Core connected to six color-coded, sharp vector diagnostic cards: 1) Sali & Boro Paddy (Emerald): Rice Blast & BPH (Jorhat/Titabor); 2) Tea Plantations (Teal): Tea Mosquito Bug (Dibrugarh/Chabua); 3) Potato (Crimson): Late Blight (Barpeta/Mandia); 4) Mustard (Amber): Mustard Aphid (Nagaon/Raha); 5) Maize (Royal Blue): Fall Armyworm (Karbi Anglong/Diphu); 6) Horticulture Banana (Purple): Sigatoka & N-Deficit (Goalpara/Dudhnoi). Each card displays clean vector crop icon, target pathogen, and 6-12 day lead-time badge. Clean 2D flat vector aesthetic, crisp borders, ultra-sharp engineering typography."
+  },
+  {
+    "id": 4,
+    "section": "Proposal Section 6: 24-Week Roadmap",
+    "filename": "vis4_roadmap_gantt.jpg",
+    "title": "24-Week Development, Validation & State Scaling Blueprint",
+    "prompt": "An executive 16:9 widescreen technological roadmap infographic on a clean white and light-gray blueprint grid background illustrating THE 24-WEEK DEVELOPMENT & PILOT VALIDATION ROADMAP (NESFIC-D-11). The top header features bold dark navy condensed typography PHASED IMPLEMENTATION & VALIDATION TIMELINE with subtitle From ASSAC Data Governance to Controlled Block Pilot & State-Wide Scaling. Depicts a crisp 4-phase horizontal engineering pipeline with milestone flags and deliverable cards: Phase 1 (Weeks 1-4, Amber): Stakeholder Alignment & Governance (ASSAC/Agri MoUs, AAU/NIBSM crop-pest rules); Phase 2 (Weeks 5-10, Royal Blue): GeoAI & Forecasting Core (Sentinel-2 + UAV pipeline, PostGIS, 14-day SEIR engine); Phase 3 (Weeks 11-16, Emerald Green): Field App & Multilingual Advisory (Extension triage queue, Assamese/Bengali/Bodo SMS, Week 16 Validation-Ready MVP Flag); Phase 4 (Weeks 17-24, Purple): Controlled Pilot & Scaling Blueprint (6-week active block trials, precision/recall & input-reduction audit). Clean 2D flat vector aesthetic, crisp gridlines, ultra-sharp typography."
+  },
+  {
+    "id": 5,
+    "section": "Proof of Work Section 2: Drone Spectral vs RGB",
+    "filename": "vis5_drone_rgb_vs_stress.jpg",
+    "title": "UAV Optical Naked-Eye View vs. Multispectral & Thermal Early Stress",
+    "prompt": "A high-impact 16:9 widescreen scientific remote-sensing comparison infographic on a clean white and light-gray blueprint grid background illustrating SUB-VISUAL STRESS DETECTION: NAKED-EYE RGB VS. MULTISPECTRAL & THERMAL UAV SENSING. The top header features bold dark navy condensed typography EARLY ANOMALY PINPOINTING BEFORE VISIBLE SYMPTOMS with subtitle Demonstrating 8-Day Pre-Symptomatic Detection Over Assam Paddy & Tea Canopies. Split into two crisp isometric aerial field panels: Left Side: NORMAL DRONE CAMERA (RGB) showing uniform lush green crop rows with badge 'Looks Healthy to Naked Eye (0 Visible Lesions)'; Right Side: AGRIDRISHTI MULTISPECTRAL + THERMAL VIEW of the exact same field overlaid with high-contrast glowing orange-red hotspot polygons, callout lines pointing to 'Hotspot A: +2.3°C Thermal ΔT' and 'Hotspot B: -0.18 NDRE Chlorophyll Dip', with badge 'Early Stress Pinpointed 8 Days Earlier (91% Confidence)'. Clean 2D flat vector + technical telemetry aesthetic, crisp callout arrows, ultra-sharp typography."
+  },
+  {
+    "id": 6,
+    "section": "Proof of Work Section 6: Mobile Advisory & Audit",
+    "filename": "vis6_mobile_advisory_ui.jpg",
+    "title": "Last-Mile Multilingual SMS & Human-in-the-Loop Verification App",
+    "prompt": "A clean 16:9 widescreen mobile-tech UI framework infographic on a clean white and light-gray blueprint grid background illustrating CLOSED-LOOP FIELD VERIFICATION & MULTILINGUAL FARMER ADVISORY DELIVERY. The top header features bold dark navy condensed typography HUMAN-IN-THE-LOOP GOVERNANCE & LAST-MILE EXTENSION with subtitle Connecting Block Extension Officers and Smallholder Farmers Across Assam. Displays two crisp modern smartphone UI mockups connected by an audit-verification arrow: Left Phone (Extension Officer Triage App): Shows Alert #ALT-2026-1103 (89% Confidence), Driver '89% RH + 12.5h Leaf Wetness', green 'Verify Ground Truth' button, blue 'UAV Re-flight' button, and 'Immutable Audit Log Recorded' badge; Right Phone (Farmer SMS / WhatsApp Broadcast): Shows clean green advisory card 'AgriDrishti Assam · Titabor Block · High Rice Blast Risk (74%) · 6-Day Lead · Inspect 7 Hotspots & Apply IPM First' with language pills 'Assamese · Bengali · Bodo · English'. Clean 2D flat vector UI aesthetic, crisp lines, ultra-sharp typography."
+  }
+]
